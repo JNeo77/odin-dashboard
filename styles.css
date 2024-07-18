@@ -1,0 +1,16 @@
+.header, .sidebar, .article {
+  border: 1px solid red;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+}
+
+.header, .article {
+  grid-column: 2 / 3;
+}
+
+.sidebar {
+  grid-row: 1 / 3;
+}
